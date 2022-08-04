@@ -1,0 +1,23 @@
+@media screen and (max-width: 376px)
+{
+    .header-item{
+        display: none;
+    }
+    .header{
+       
+        padding-left: 20px ;
+        height: 65px;
+    }
+    .header-image{
+        width: 217px;
+        height: 20px;
+    }
+    .content-image{
+        width: 375px;
+        height: 235px;
+    }
+    .image-list{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30px;
+    }
+}  
